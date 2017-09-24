@@ -15,3 +15,5 @@ class GreetingController {
             Greeting(counter.incrementAndGet(), "Hello, $name")
 
 }
+
+data class Greeting(val id: Long, val content: String)
